@@ -1,0 +1,183 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+.big-heading {
+  font-size: 4rem;
+}
+
+.section-heading {
+  font-size: 3rem;
+}
+
+/* Title section */
+#title .padding {
+  text-align: left;
+  padding: 0 15% 7%;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #11999E;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navbar */
+.navbar-brand {
+  padding-left: 10px;
+  font-family: 'Coda Caption', sans-serif;
+  font-size: 2rem;
+}
+
+.navbar-container {
+  padding-left: 0;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
+.padding {
+  padding: 7% 15%;
+}
+
+.title-description {
+  margin-top: 40px;
+}
+
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+.torkoal-img {
+  transform: scaleX(-1);
+  margin-top: 6.5rem;
+}
+
+/* features section */
+#features .padding {
+  padding: 7% 15% 0;
+}
+
+.parallax-window {
+  min-height: 400px;
+  background: transparent;
+}
+
+.feature-box {
+  padding: 30px;
+}
+
+.feature-logo {
+  color: #30E3CA;
+  margin: 1rem;
+}
+
+.feature-logo:hover {
+  color: #11999E;
+  font-size: 6em;
+  transition: 0.5s ease-out;
+}
+
+/* Testimonial section */
+.testimonial-text {
+  font-size: 3rem;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+/* Press Section */
+#press {
+  background-color: #11999E;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 8%;
+  margin: 20px 30px 50px;
+}
+
+/* Pricing section */
+.pricing-text {
+  font-size: 3rem;
+}
+
+.card {
+  padding: 0;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* Location Section */
+.location-map {
+  border-radius: 25px;
+  border: 3px solid;
+  border-color: #fff;
+}
+
+/* Footer section */
+#footer {
+  padding: 9% 15% 4%;
+}
+
+.footer-logo {
+  margin: 0 15px 20px;
+}
+
+.footer-logo:hover {
+  color: #11999E;
+  font-size: 2em;
+  transition: 1s ease-out;
+}
+
+@media (max-width: 991px) {
+  #title .padding {
+    text-align: center;
+  }
+
+  .big-heading, .section-heading {
+    font-size: 2.5rem;
+  }
+
+  .testimonial-text {
+    font-size: 2rem;
+  }
+
+  .navbar {
+    padding-bottom: 0;
+  }
+
+  .torkoal-img {
+    transform: rotate(0);
+    position: static;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+}
